@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="speed_4.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>ReCode</title>
+</head>
+<body> 
+
+    <section class="header" id="home">
+        <nav>
+            <img src="pictures/logo.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+    </section>
+    <section class="test">
+        <section class="passage">
+            <h1>Crispy Fried Shrimps</h1>
+            <img src="pictures/nuts.jpg" class="nuts">
+                <div class="passage-text">
+                    <p>There is a small difference between nuts and seeds. Many seeds often are called nuts. For example, hazelnuts are nuts. Chestnuts are nuts. Beechnuts are nuts. Acorns are nuts. But, Brazil Nuts are not nuts. Cashews are not nuts. Peanuts are not nuts. Pistachios are not nuts.</p>
+
+                    <p>So what are nuts? A true nut is a fruit with one seed. True nuts have very hard shells. True nuts do not open on their own. You must crack a true nut to open it.</p>
+                        
+                    <p>Cooks often call seeds “nuts.” In addition, English speakers often call seeds, “nuts.” The difference between nuts and seeds is small, so it is not necessarily wrong to call a seed a nut.</p>
+                        
+                    <p>Nuts are good for your health. Seeds are also good for your health. Nuts and seeds contain a lot of oil. They also contain a lot of energy for your body. Nuts are a good snack food. Seeds are also a good snack food. Nuts are good for the heart. Seeds are also good for the heart. Nuts help you grow. Seeds also help you grow. Nuts are good for the skin. Seeds are also good for the skin.</p>
+                        
+                    <p>Many animals eat nuts. Squirrels eat nuts. Mice eat nuts. Chipmunks eat nuts. Raccoons eat nuts. Birds eat nuts. Even some dogs eat nuts.</p>
+
+                    <p>Many animals eat seeds. Birds eat seeds. Mice eat seeds. Even some snakes eat seeds. There are hundreds of nuts that people and animals can eat. There are hundreds of seeds that people and animals can eat. But many nuts and seeds are inedible. Look in a book or check on the internet before trying to eat unfamiliar seeds and nuts. Learn if new foods are safe and healthful by reading about them before tasting them.</p> <br>
+
+                    <hr>
+
+                    <p>Source: <a href="https://englishforeveryone.org/viewpdf.html?pdf=/PDFs/Beginning%20Critical%20Reading%20-%20Nuts.pdf&title=%22Nuts%22"><i>EnglishForEveryone.org</i></a></p>
+
+                </div>
+            </section>
+
+        <section class="question_part">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                    <div class="timer">
+                        <div class="time_left_txt">Time Left</div>
+                        <div class="timer_sec" id="timer">1:00</div>
+                    </div>
+                    <div class="time_line"></div>
+                <h3 id="question">Question is loading...</h3>
+                    <ul>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="a" class="answer" />
+                            <label for="a" id="a_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="b" class="answer" />
+                            <label for="b" id="b_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="c" class="answer" />
+                            <label for="c" id="c_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="d" class="answer" />
+                            <label for="d" id="d_text">Answer...</label>
+                        </li>
+                        </ul>
+                    </div>
+                    <button id="next" class="next">next</button>
+                    <button id="submit" class="submit">submit</button>
+                </div>
+        </section>
+            
+    </section>
+           
+    
+    <!--Javascript-->
+    <script src="speed_4.js"></script>
+</body>
+</html>

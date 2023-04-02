@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="test_1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>ReCode</title>
+</head>
+<body> 
+
+    <section class="header" id="home">
+        <nav>
+            <img src="pictures/logo.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+    </section>
+    <section class="test">
+        <section class="passage">
+            <h1>The Giant Panda</h1>
+            <img src="pictures/panda.jpg" class="panda">
+                <div class="passage-text">
+                    <p>The giant panda is the rarest member of the bear family. It is one of the world's most threatened animals.</p> <br>
+
+                    <p>The giant panda is very well loved. It is a special animal for the World Wildlife Fund. It has been their logo since the WWF was started in 1961.</p> <br>
+                        
+                    <p>Giant pandas live in forests in the mountain areas in central and southwest China.</p> <br>
+                        
+                    <p>As more roads and railway lines are built, the forest habitat is disturbed. When that happens, the pandas can't find enough bamboo to eat. And they need a lot to eat - almost 28 pounds of bamboo per day!</p> <br>
+                        
+                    <p>Through the efforts of the WWF and other groups, the number of giant pandas is on the rise. But it hasn't been enough to remove it from the endangered animal list.</p> <br>
+
+                    <hr>
+
+                    <p>Source: <a href="https://wordville.com/ReadingComp/RC3GiantPanda.html"><i>Wordville.com</i></a></p>
+                </div>
+            </section>
+
+        <section class="question_part">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                <h3 id="question">Question is loading...</h3>
+                    <ul>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="a" class="answer" />
+                            <label for="a" id="a_text">Answer...</label>
+                            
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="b" class="answer" />
+                            <label for="b" id="b_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="c" class="answer" />
+                            <label for="c" id="c_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="d" class="answer" />
+                            <label for="d" id="d_text">Answer...</label>
+                        </li>
+                        </ul>
+                    </div>
+                    <button id="next" class="next">next</button>
+                    <button id="submit" class="submit">submit</button>
+                    <div class = "expl" id = "explanation">loading...</div> 
+                </div>
+        </section>
+            
+    </section>
+           
+    
+    <!--Javascript-->
+    <script src="js_1.js"></script>
+</body>
+</html> 

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <link rel="stylesheet" href="speed_2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>ReCode</title>
+</head>
+<body> 
+
+    <section class="header" id="home">
+        <nav>
+            <img src="pictures/logo.png" class="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="../index.html">HOME</a></li>
+                </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav> 
+    </section>
+    <section class="test">
+        <section class="passage">
+            <h1>Storms, Tornadoes, and Hurricanes</h1>
+            <img src="pictures/storm_in_one.jpg" class="storm">
+                <div class="passage-text">
+                    <p>There are different types of storms which can occur anywhere in the world are thunderstorms, tornadoes, and hurricanes. Each of these thunderstorms can become strong enough to cause severe damage, property loss, or worse.</p> <br>
+
+                    <p>The first type is the thunderstorm, which is the most common kind of storm. Thunderstorms can produce lightning, thunder, rain, sleet, hail, or even snow. Thunderstorms form in clouds called thunderheads or cumulonimbus clouds where the storms cause lightning. The lightning in turn heats the air and causes a noise called thunder. Most thunderstorms have heavy rain and high winds. Thunderstorms can occur anywhere in the world.</p> <br>
+                        
+                    <p>A second type of storm which is spun off of violent thunderstorms is called a tornado. A tornado is a powerful spinning wind that moves across the ground in a narrow path. These form when the Earth's surface is very warm and the warm air rises and gets very strong. This can lead to a tornado. The air rushes in from all sides at very high speeds, and the air curves into a spin. As the tornado gets stronger, a funnel will form and in most cases it will eventually touch the ground. In the center of a tornado the wind speeds can reach about 300 miles per hour. The speed inside the funnel, though, is not the same speed at which the tornado moves across the ground. The tornado moves at different speeds and may change directions. Everything in the path of a tornado can be destroyed. Most tornadoes in the United States take place in the Midwest and in the South during the early spring or summer. When a tornado forms over water it is called a waterspout.</p> <br>
+                        
+                    <p>The final type of storm is a hurricane. Hurricanes are very large swirling storms with very low pressure at their center that form over warm tropical oceans near the equator. Hurricanes create a large number of thunderstorms while they are moving across the water and when heading towards landfall. Some hurricanes may also produce tornadoes as they move closer to land. In addition, they cause high waves and widespread flooding in coastal areas.</p> <br>
+                        
+                    <p>The weather in the eye of a hurricane is usually calm. The eye of a hurricane can be anywhere 2 to 200 miles in diameter. As a hurricane arrives on land they begin to lose some of their strength but are still very dangerous and can cause serious damage to property and may cause the loss of life. The wind flow of hurricanes above the equator is clockwise, but the wind flow for hurricanes below the equator are counter-clockwise. Hurricanes may also be called or referred to as tropical storms, cyclones, or typhoons.</p> <br>
+
+                    <hr>
+
+                    <p>Source: <a href="https://www.softschools.com/language_arts/reading_comprehension/science/4/storms_tornadoes_and_hurricanes/"><i>Softschools.com</i></a></p>
+
+                </div>
+            </section>
+
+        <section class="question_part">
+            <div class="quiz-container" id="quiz">
+                <div class="quiz-header">
+                    <div class="timer">
+                        <div class="time_left_txt">Time Left</div>
+                        <div class="timer_sec" id="timer">1:00</div>
+                    </div>
+                    <div class="time_line"></div>
+                <h3 id="question">Question is loading...</h3>
+                    <ul>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="a" class="answer" />
+                            <label for="a" id="a_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="b" class="answer" />
+                            <label for="b" id="b_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="c" class="answer" />
+                            <label for="c" id="c_text">Answer...</label>
+                        </li>
+                        <li class = "ans">
+                            <input type="radio" name="answer" id="d" class="answer" />
+                            <label for="d" id="d_text">Answer...</label>
+                        </li>
+                        </ul>
+                    </div>
+                    <button id="next" class="next">next</button>
+                    <button id="submit" class="submit">submit</button>
+                </div>
+        </section>
+            
+    </section>
+           
+    
+    <!--Javascript-->
+    <script src="speed_2.js"></script>
+</body>
+</html>
